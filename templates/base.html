@@ -42,6 +42,7 @@
     {% endblock head %}
 </head>
 <body>
+    <div id="actual-wrapper">
     <header>
         <nav>
             {% block ephemeral_nav %}{%- endblock %}
@@ -85,6 +86,7 @@
                  {% endif %}
             </footer>
         </div>
+    <div />
         <div class="clear"></div>
     </div>
 {% include 'analytics.html' %}
