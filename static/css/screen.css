@@ -248,11 +248,11 @@ nav a {
     padding: 4.5em 10px 10px 10px;
 }
 nav a:hover {
-    background-color: #d3d3d3;
+    background-color: #CCC;
     color: #FFF;
 }
 nav li.selected a {
-    background-color: #15A9DB;
+    background-color: #CCC;
     color: #FFF;
 }
 
