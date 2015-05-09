@@ -74,8 +74,13 @@ header, #wrapper {
 }
 
 a {
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
     text-decoration: none;
-    color: #CCC;
+    background-color: #ccc;
 }
 
 ul {
@@ -248,6 +253,7 @@ nav a {
     padding: 4.5em 10px 10px 10px;
 }
 nav a:hover {
+    text-decoration: none;
     background-color: #CCC;
     color: #FFF;
 }
@@ -260,7 +266,9 @@ header .header_box a {
     font-family: "Alegreya", serif;
     font-weight: 500;
     font-size: 2.5em;
+    text-decoration: none;
 }
+
 header .header_box {
     padding-top: 4em;
 }
