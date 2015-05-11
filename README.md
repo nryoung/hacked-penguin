@@ -1,14 +1,10 @@
-![screenshot](screenshot.png)
+![screenshot](hacked_penguin.jpg)
 
-# Blue Penguin for pelican
-A simple theme for pelican. Solarized pygments. Feeds support.
+# Hacked Penguin for pelican
+A simple grey and white theme for Pelican.
 
-## Contributors
-* [Nevan Scott](https://github.com/nevanscott/Mockingbird) (original author)
-* [wrl](http://github.com/wrl) (port to pelican, pelican-mockingbird)
-* [Jody Frankowski](http://github.com/jody-frankowski) (Blue Penguin)
-* [Grimbox](https://github.com/Grimbox)
-* [ix5](https://github.com/ix5)
+## This is a fork
+ This repo was lovingly forked from [Blue Penguin](https://github.com/jody-frankowski/blue-penguin), you should go check the original up.
 
 ## License
 Public domain.
