@@ -17,5 +17,10 @@
 
 {% block title %}{{ SITENAME }} &middot; {{ article.title }}{% endblock %}
 {% block content %}
+<h2 class="title">
+<a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+</a>
+</h2>
+{{ article.date.strftime("%b %d, %Y") }}
 {{ article.content }}
 {% endblock %}
